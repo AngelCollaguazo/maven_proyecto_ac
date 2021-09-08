@@ -4,7 +4,8 @@ public class Paciente {
 	
 	private String nombre;
 	private int edad;
-	
+	public static String pais = "Ecuador";
+	public static String provincia = "Pichincha";
 	
 	
 	public void chequeo() {
