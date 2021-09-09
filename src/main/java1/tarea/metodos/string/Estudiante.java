@@ -1,9 +1,8 @@
 package tarea.metodos.string;
 
-public class Estudiante {
-
+public class Estudiante{
 	private String cedulaEstudiante;
-	
+
 	public String getCedulaEstudiante() {
 		return cedulaEstudiante;
 	}
@@ -12,4 +11,9 @@ public class Estudiante {
 		this.cedulaEstudiante = cedulaEstudiante;
 	}
 
+	@Override
+	public String toString() {
+		return "Estudiante [cedulaEstudiante=" + cedulaEstudiante + "]";
+	}
+	
 }
