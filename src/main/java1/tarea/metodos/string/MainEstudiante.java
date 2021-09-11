@@ -7,7 +7,7 @@ public class MainEstudiante {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Scanner lector = new Scanner(System.in);
+		Scanner lectorString = new Scanner(System.in);
 		Scanner lectorInt = new Scanner(System.in);
 
 		int opc;
@@ -30,7 +30,7 @@ public class MainEstudiante {
 
 			if (opc == 1) {
 				System.out.println("Ingrese el numero de cedula del estudiante : ");
-				String cedulaEstudiante = lector.nextLine();
+				String cedulaEstudiante = lectorString.nextLine();
 
 				if (cant == 0) {
 					cedula1.setCedulaEstudiante(cedulaEstudiante);
@@ -56,7 +56,7 @@ public class MainEstudiante {
 
 			} else if (opc == 2) {
 				System.out.println("Ingrese la cedula para buscar: ");
-				String buscar = lector.nextLine();
+				String buscar = lectorString.nextLine();
 				boolean respuesta = false;
 				for (int i = 0; i < 5; i++) {
 					Estudiante estudiante = listaEstudiante[i];
