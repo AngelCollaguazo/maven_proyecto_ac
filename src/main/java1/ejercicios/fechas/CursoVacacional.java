@@ -6,6 +6,7 @@ public class CursoVacacional {
 	private String nombre;
 	private LocalDate fechaInicio;
 	private LocalDate fechaFin;
+	private Instructor instructor;
 	
 	//Metodos SET y GET
 	public String getNombre() {
